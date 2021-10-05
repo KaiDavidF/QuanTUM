@@ -4,15 +4,13 @@ export default function Landing() {
     <div className="paragraph">
       <h1>What we do</h1>
       <p className="p1">
-        QuanTUM is the first Hedgefund society founded at Germanys best
+        QuanTUM is the first Hedgefund society founded at Germanys #1
         university. TUM has the brightest minds in fields including Mathematics,
         Computer Science, Engineering, Physics and Business. When founding
         QuanTUM, we had three things in mind:
       </p>
-      <p>
-        <h3>1. Your major does not matter.</h3>
-        We believe that true diversity comes from having diverse minds.{" "}
-      </p>
+      <h3>1. Your major does not matter.</h3>
+      <p>We believe that true diversity comes from having diverse minds. </p>
 
       <h3>2. You do not need any prior knowledge in finance</h3>
       <p>

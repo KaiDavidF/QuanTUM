@@ -16,8 +16,13 @@
 
 .logo {
   align-items: center;
-  height: 800px;
+  height: 700px;
   position: relative;
   bottom: 30px;
-  right: 20px;
+  right: 5%;
+  left: -1%;
+}
+html,
+body {
+  overflow-x: hidden;
 }
