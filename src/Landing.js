@@ -26,6 +26,14 @@ export default function Landing() {
         <br /> Still, having expertise in certain fields might help
         significantly.
       </p>
+      <h2>Our goal</h2>
+      <p>
+        We aim to give our students an overview of quantitative finance and
+        different investment funds such as hedge funds. <br />
+        Meanwhile, we offer various workshops and potential career opportunities
+        with our sponsors and partnerships. <br />
+        We strongly encourage our members to realize individual projects.
+      </p>
     </div>
   );
 }
