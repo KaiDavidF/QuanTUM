@@ -13,8 +13,9 @@ export default function Landing() {
         <h3>1. Your major does not matter.</h3>
         We believe that true diversity comes from having diverse minds.{" "}
       </p>
+
+      <h3>2. You do not need any prior knowledge in finance</h3>
       <p>
-        <h3>2. You do not need any prior knowledge in finance.</h3>
         Breakthroughs happen through novel approaches; which often come from
         people who have not worked in the respective field before.
       </p>
