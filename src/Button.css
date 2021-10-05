@@ -24,7 +24,7 @@ button {
 
 button {
   position: relative;
-  top: -120px;
+  top: -220px;
   border: none;
   font-size: 30px;
   transition: color 0.5s, transform 0.2s, background-color 0.2s;
