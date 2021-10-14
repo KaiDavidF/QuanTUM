@@ -13,8 +13,8 @@ export default function Landing() {
       <h2>Our goal</h2>
       <p>
         We aim to give our students an overview and deeper understanding of
-        quantitative finance and different investment funds such as hedge funds.{" "}
-        <br />
+        quantitative & qualitative finance and different investment funds such
+        as hedge funds. <br />
         QuanTUM offers various workshops and potential career opportunities with
         our sponsors and partnerships. <br />
         Meanwhile, we strongly encourage and support our members in realizing
