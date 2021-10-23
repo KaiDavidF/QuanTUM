@@ -28,6 +28,9 @@ export default function Landing() {
           individual projects. The projects will be in the context of
           competitions, research projects with our partners as well as projects
           we implement ourselves.
+          <br /> Possible outcomes include spin-offs in the form of private
+          projects (e.g. start-ups) or research groups. Finally, QuanTUM is
+          about learning to work with people who have very different abilities.
         </p>
         <h2>What matters</h2>
         Our members should be ambitious, bright and open about learning new
