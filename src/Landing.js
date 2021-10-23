@@ -11,8 +11,8 @@ export default function Landing() {
     <div>
       <div className="paragraph">
         <h1>What is QuanTUM</h1>
-        QuanTUM is the first Hedgefund society founded at one of Germanys most
-        excellent universities. <br />
+        QuanTUM is the first quantitative finance society founded at one of
+        Germanys most excellent universities. <br />
         TU Munich has the brightest minds in fields including Mathematics,
         Computer Science, Engineering, Physics and Business. <br />
         We try to bring these minds together; to achieve outstanding results.
@@ -25,49 +25,19 @@ export default function Landing() {
           QuanTUM offers various workshops and potential career opportunities
           with our sponsors and partnerships. <br />
           Meanwhile, we strongly encourage and support our members in realizing
-          individual projects.
+          individual projects. These projects might push
         </p>
-        <p className="p1">
-          <h2>Important</h2>
-          When thinking about our members, we had three things in mind:
-        </p>
-        <h2>1. Your major does not matter.</h2>
-        <p>We believe that true diversity comes from having diverse minds. </p>
-        <h2>2. Your age does not matter.</h2>
-        <p>
-          You could be in the first year of your studies or in a Ph.D. program.
-          <br /> We are interested in you personally.
-        </p>
-        <h2>3. You do not need any prior knowledge in finance</h2>
-        <p>
-          Breakthroughs happen through novel approaches; <br />
-          which often come from people who have not worked in the respective
-          field before.
-          <br /> Still, having expertise in certain fields might help
-          significantly.
-        </p>
-        <h2>What actually matters</h2>
+        <h2>What matters</h2>
         Our members should be ambitious, bright and open about learning new
         things. <br />
         This is highly important as we want to bring people together who might
         have never taken a single business course.
+        <br /> Novell approaches often come from people who have not worked in
+        the respective fields before.
         <br /> However, applying your unique skills to financial problems
         requires an excellent ability in learning quickly.
-        <h2>More Information</h2>
-        You'll find more information on current events on our LinkedIn-page. Or
-        you can submit your mail to become a member.
-        <br />
-        <br />
-        <br />
         <div className="rowC">
-          <form className="form" onSubmit={handleSubmit}>
-            <fieldset>
-              <label>
-                <p>Your e-mail goes here [press Enter to submit]</p>
-                <input name="name" />
-              </label>
-            </fieldset>
-          </form>
+          <h2>More Information</h2>
           <SocialIcon
             className="icon"
             url="https://www.linkedin.com/company/quantum-hedge-fund-club/about/"
