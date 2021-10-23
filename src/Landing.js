@@ -19,17 +19,17 @@ export default function Landing() {
         <br />
         <h2>Our goal</h2>
         <p>
-          We aim to give our students an overview and deeper understanding of
-          quantitative & qualitative finance and different investment funds such
-          as hedge funds. <br />
+          We aim to give our students a deeper understanding of quantitative &
+          qualitative finance. This includes implementations (e.g. Hedgefunds).{" "}
+          <br />
           QuanTUM offers various workshops and potential career opportunities
-          with our sponsors and partnerships. <br />
+          with our partnerships. <br />
           Meanwhile, we strongly encourage and support our members in realizing
           individual projects. The projects will be in the context of
           competitions, research projects with our partners as well as projects
           we implement ourselves.
           <br /> Possible outcomes include spin-offs in the form of private
-          projects (e.g. start-ups) or research groups. Finally, QuanTUM is
+          ventures (e.g. start-ups) or research groups. Finally, QuanTUM is
           about learning to work with people who have very different abilities.
         </p>
         <h2>What matters</h2>
