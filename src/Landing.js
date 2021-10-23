@@ -25,7 +25,9 @@ export default function Landing() {
           QuanTUM offers various workshops and potential career opportunities
           with our sponsors and partnerships. <br />
           Meanwhile, we strongly encourage and support our members in realizing
-          individual projects. These projects might push
+          individual projects. The projects will be in the context of
+          competitions, research projects with our partners as well as projects
+          we implement ourselves.
         </p>
         <h2>What matters</h2>
         Our members should be ambitious, bright and open about learning new
