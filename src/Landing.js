@@ -2,11 +2,6 @@ import "./Landing.css";
 import { SocialIcon } from "react-social-icons";
 
 export default function Landing() {
-  const handleSubmit = (event) => {
-    event.preventDefault();
-    alert("You have submitted your email. See you at the next event!");
-  };
-
   return (
     <div>
       <div className="paragraph">
@@ -41,12 +36,27 @@ export default function Landing() {
         the respective fields before.
         <br /> However, applying your unique skills to financial problems
         requires an excellent ability in learning quickly.
-        <div className="rowC">
+        <div>
           <h2>More Information</h2>
+          <br />
+        </div>
+        <div className="rowC">
           <SocialIcon
             className="icon"
             url="https://www.linkedin.com/company/quantum-hedge-fund-club/about/"
           />
+          <button
+            className="shrink-border"
+            type="button"
+            onClick={(e) => {
+              e.preventDefault();
+              window.location.href =
+                "https://lanfjm1shdy.typeform.com/to/NNS3OHkT";
+            }}
+          >
+            {" "}
+            Become a member
+          </button>
         </div>
       </div>
     </div>
