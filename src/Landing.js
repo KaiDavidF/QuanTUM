@@ -1,7 +1,17 @@
 import "./Landing.css";
 import { SocialIcon } from "react-social-icons";
-
+import { useHistory } from "react-router-dom";
 export default function Landing() {
+  const history = useHistory();
+
+  const routeImpressum = () => {
+    let path = "Impressum";
+    history.push(path);
+  };
+  const routeDaten = () => {
+    let path = "Datenschutz";
+    history.push(path);
+  };
   return (
     <div>
       <div className="paragraph">
@@ -37,14 +47,21 @@ export default function Landing() {
         <br /> However, applying your unique skills to financial problems
         requires an excellent ability in learning quickly.
         <div>
-          <h2>More Information</h2>
           <br />
         </div>
         <div className="rowC">
-          <SocialIcon
-            className="icon"
-            url="https://www.linkedin.com/company/quantum-hedge-fund-club/about/"
-          />
+          <button
+            className="shrink-border"
+            type="button"
+            onClick={(e) => {
+              e.preventDefault();
+              window.location.href =
+                "https://www.linkedin.com/company/quantum-hedge-fund-club/about/";
+            }}
+          >
+            {" "}
+            LinkedIn
+          </button>
           <button
             className="shrink-border"
             type="button"
@@ -56,6 +73,21 @@ export default function Landing() {
           >
             {" "}
             Become a member
+          </button>
+        </div>
+        <div className="rowC">
+          <button className="shrink-border2" type="button" onClick={routeDaten}>
+            {" "}
+            Privacy (Datenschutz)
+          </button>
+
+          <button
+            className="shrink-border2"
+            type="button"
+            onClick={routeImpressum}
+          >
+            {" "}
+            Imprint (Impressum)
           </button>
         </div>
       </div>

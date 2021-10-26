@@ -7,7 +7,7 @@ function Start() {
   const history = useHistory();
 
   const routeChange = () => {
-    let path = "l1";
+    let path = "Home";
     history.push(path);
   };
 
