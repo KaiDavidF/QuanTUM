@@ -33,6 +33,10 @@ export default function Landing() {
           individual projects. The projects will be in the context of
           competitions, research projects with our partners as well as projects
           we implement ourselves.
+          <br /> During these projects, we also want to explore possible
+          applications of quantitative methods and data-mining in areas like
+          Venture Capital or Private Equity.
+          <br />
           <br /> Possible outcomes include spin-offs in the form of private
           ventures (e.g. start-ups) or research groups. Finally, QuanTUM is
           about learning to work with people who have very different abilities.
