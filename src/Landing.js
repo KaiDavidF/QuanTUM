@@ -76,7 +76,7 @@ export default function Landing() {
             }}
           >
             {" "}
-            Become a member
+            Sign up!
           </button>
         </div>
         <div className="rowC">
