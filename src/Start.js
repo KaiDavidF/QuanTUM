@@ -15,7 +15,7 @@ function Start() {
     <div className="App">
       <header className="App-header">
         <img src={quantlogo} className="logo" fill="white" />
-        
+        <div> We will be back soon</div>
       </header>
     </div>
   );
