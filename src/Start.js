@@ -15,9 +15,7 @@ function Start() {
     <div className="App">
       <header className="App-header">
         <img src={quantlogo} className="logo" fill="white" />
-        <button className="shrink-border" onClick={routeChange}>
-          Enter{" "}
-        </button>
+        
       </header>
     </div>
   );
