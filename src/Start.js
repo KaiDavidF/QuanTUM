@@ -15,6 +15,18 @@ function Start() {
     <div className="App">
       <header className="App-header">
         <img src={quantlogo} className="logo" fill="white" />
+        <button
+            className="shrink-border"
+            type="button"
+            onClick={(e) => {
+              e.preventDefault();
+              window.location.href =
+                "https://www.linkedin.com/company/quantum-hedge-fund-club/about/";
+            }}
+          >
+            {" "}
+            LinkedIn
+          </button>
         <div> We will be back soon</div>
       </header>
     </div>
